@@ -1,3 +1,6 @@
+// @import "bootstrap/scss/bootstrap-grid";
+// bug d'importation de bootstrap :(
+
 /* ====================================
 // css variables
 // ==================================== */
@@ -42,3 +45,138 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+// .row + .row {
+//   margin-top: 16px;
+// }
+
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
+body {
+  background-color: #0e0e0e;
+}
+h1 {
+  color: #ffffff;
+  font-size: 275px;
+}
+h2 {
+  color: #ffffff;
+  line-height: 95%;
+  font-size: 30px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 15px;
+  }
+}
+p {
+  color: #ffffff;
+  padding-left: 0;
+  font-size: 20px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  p {
+    font-size: 12px;
+  }
+}
+.nav {
+  font-size: 15px;
+  padding-right: 35px;
+}
+
+.article-card {
+  position: relative;
+}
+
+.img-label {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 40%;
+  height: 10%;
+  background-color: #c4007a;
+  padding-bottom: 0;
+}
+.label {
+  font-size: 20px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 767px) {
+    p {
+      font-size: 10px;
+    }
+  }
+}
+.img-label p {
+  padding-left: 10%;
+  padding-bottom: 8%;
+  color: #7cd401;
+}
+.img-label-big p {
+  padding-left: 10%;
+  color: #7cd401;
+}
+
+.img-label-big {
+  position: absolute;
+  bottom: 40%;
+  left: 0;
+  width: 40%;
+  height: 5%;
+  background-color: #c4007a;
+  padding-bottom: 0;
+}
+.article-info {
+  padding-top: 15px;
+}
+
+.small-img-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+.text-right {
+  text-align: right;
+}
+.small-article h2 {
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+  color: white;
+  margin: 0;
+  padding: 10px;
+}
+.gradient {
+  color: linear-gradient(1deg, #0e0e0e -1.62%, rgba(14, 14, 14, 0) 68.11%);
+  z-index: 1;
+}
+.big-date {
+  text-align: right;
+}
+.label-art {
+  padding-bottom: 8%;
+}
+.margin {
+  margin-top: 15%;
+}
